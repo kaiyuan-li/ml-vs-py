@@ -36,3 +36,18 @@ Elapsed time is 393.848690 seconds.
 ```
 
 Notice the speed of python is 1000x comparing to ML... And the Matlab solution is not scalable at all.
+
+## Reference
+
+Environment and version
+
+```
+>> % Use the ver function to get version information
+matlabVersion = ver;
+
+% Extract and display MATLAB version number
+disp(['MATLAB Version: ' matlabVersion(1).Version]);
+MATLAB Version: 23.2
+```
+
+I'm running it on Mac M3 Pro 32G memory.
